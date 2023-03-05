@@ -1,0 +1,108 @@
+*{
+    padding:0px;
+    margin:auto;
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-image:linear-gradient(to black,blueviolet );
+
+
+}
+.navbar img{
+    height:100px;
+    width:100px;
+    display: flex;
+    
+    
+}
+h1{
+    text-align: center;
+    color:white;
+}
+body{
+    background-image: linear-gradient(black,blueviolet);
+    height:700px;
+}
+button{
+    padding:10px;
+    border-radius:20px;
+    display: flex;
+}
+.box{
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    
+}
+.footer{
+    color:white;
+    bottom:0;
+    left:0;
+    width:100%;
+    position: fixed;
+    background-color: black;
+    text-align: center;
+}
+.footer a{
+    color:white;
+}
+.black{
+    background-image:linear-gradient(blueviolet,black);
+    height:700px;
+}
+.container{
+    text-align: center;
+    color:white;
+    animation-name:move;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    height:400px;
+    width:350px;
+}
+input{
+    padding:5px;
+    border-radius:20px;
+    outline:none;
+}
+textarea{
+    padding:20px;
+    border-radius:5px;
+    outline:none;
+
+}
+@keyframes move{
+    0%{
+        border-style: dashed;
+        border-color: white;
+    }
+    25%{
+        border-style: dashed;
+        border-color: rgb(0, 0, 0);
+    }
+    50%{
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+    75%{
+        border-style: dashed;
+        border-color: rgb(0, 0, 0);
+    }
+    100%{
+        border-style: dashed;
+        border-color: white;
+    }
+    
+}
+.container a{
+    color:white;
+}
+.characters img{
+    height:195px;
+    width:195px;
+    display:flex;
+    justify-content:space-between;
+    
+}
